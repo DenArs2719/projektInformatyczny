@@ -95,6 +95,7 @@ def plot_graph(G, title):
     filepath = f"{title}.png"
     plt.savefig(filepath, dpi=300, bbox_inches='tight')  # dpi=300 for high-resolution
     print(f"Graph saved as {filepath}")
+    generated_files.append(filepath)
 
     plt.show()
 
